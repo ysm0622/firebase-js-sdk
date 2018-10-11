@@ -105,6 +105,7 @@ export interface ApplicationVerifier {
 export interface AuthCredential {
   providerId: string;
   signInMethod: string;
+  accessToken: string;
 }
 
 export interface AuthProvider {
